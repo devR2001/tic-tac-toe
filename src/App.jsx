@@ -5,6 +5,9 @@ function App() {
     <main>
       <div id="game-container">
         <ol id="players">
+          {/* Isloated Components */}
+          {/* If working with one Component
+          The other Component doesn't know about that */}
           <Player name="Player 1" symbol="X" />
           <Player name="Player 2" symbol="O" />
         </ol>
